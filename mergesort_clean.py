@@ -1,6 +1,6 @@
 import numpy as np
 
-
+#this is a comment
 def plot_list(my_list):
     x = range(len(my_list))
     plt.bar(x, my_list)
