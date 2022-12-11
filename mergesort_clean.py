@@ -6,6 +6,7 @@ def plot_list(my_list):
     plt.bar(x, my_list)
     plt.show()
 
+#this is a different comment
 
 def copy_remaining(i, main_list, j, sub_list):
     while j < len(sub_list):
