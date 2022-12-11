@@ -1,14 +1,12 @@
 import numpy as np
 
-
-def plot_list(my_list, title):
+#this is a comment
+def plot_list(my_list):
     x = range(len(my_list))
     plt.bar(x, my_list)
-    plt.xlabel("Position in list")
-    plt.ylabel("Value")
-    plt.title(title)
     plt.show()
 
+#this is a different comment
 
 def copy_remaining(i, main_list, j, sub_list):
     while j < len(sub_list):
@@ -55,6 +53,6 @@ def merge_sort(my_list):
 import matplotlib.pyplot as plt
 
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-plot_list(my_list, "Unsorted List")
+plot_list(my_list)
 merge_sort(my_list)
-plot_list(my_list, "Sorted List")
+plot_list(my_list)
